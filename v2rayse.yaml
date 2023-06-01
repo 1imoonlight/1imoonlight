@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-01 15:00:20
+# 创建时间：2023-06-01 15:07:10
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -21,9 +21,9 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"韩国","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"e5e32bb3","sni":"kr.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"0a2ae18b","sni":"hk.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"e5e32bb3","sni":"kr.daydayup.ltd","skip-cert-verify":false,"network":"tcp"}
+  - {"name":"美国","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":false,"network":"tcp"}
+  - {"name":"香港","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"0a2ae18b","sni":"hk.daydayup.ltd","skip-cert-verify":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
