@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-01 15:07:10
+# 创建时间：2023-06-02 14:39:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：24
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,9 +21,29 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"韩国","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"e5e32bb3","sni":"kr.daydayup.ltd","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"美国","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"香港","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"0a2ae18b","sni":"hk.daydayup.ltd","skip-cert-verify":false,"network":"tcp"}
+  - {"name":"韩国","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"e5e32bb3","sni":"kr.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"0a2ae18b","sni":"hk.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国1号-0.1x","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国2号-0.1x","type":"trojan","server":"163.123.192.155","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国3号-0.1x","type":"trojan","server":"163.123.192.153","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国4号-0.1x","type":"trojan","server":"163.123.192.156","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 德国1号","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 香港亚马逊","type":"trojan","server":"hk2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 日本亚马逊","type":"trojan","server":"jp2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 新加坡亚马逊","type":"trojan","server":"sg2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Az-日本东京","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"jp1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 Az-美国1号-0.1x","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"us1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 Az-美国2号-0.1x","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"us2.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 Az-美国3号-0.1x","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"us3.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 Az-美国4号-0.1x","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"us4.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 台湾Hinet","type":"trojan","server":"hinet2.downloadvip.cfd","port":443,"udp":true,"password":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国1-0.1x","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us1"}}
+  - {"name":"🇺🇸 美国2-0.1x","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us2"}}
+  - {"name":"🇺🇸 美国3-0.1x","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us3"}}
+  - {"name":"🇺🇸 美国4-0.1x","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us4"}}
+  - {"name":"🇩🇪 德国1-0.1x","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/de1"}}
+  - {"name":"🇯🇵 日本东京","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"89634bb0-a5c0-4ae1-b342-7d5cc1523227","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/jp1"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,6 +53,26 @@ proxy-groups:
       - 韩国
       - 美国
       - 香港
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国4号-0.1x
+      - 🇩🇪 德国1号
+      - 🇭🇰 香港亚马逊
+      - 🇯🇵 日本亚马逊
+      - 🇸🇬 新加坡亚马逊
+      - 🇯🇵 Az-日本东京
+      - 🇺🇸 Az-美国1号-0.1x
+      - 🇺🇸 Az-美国2号-0.1x
+      - 🇺🇸 Az-美国3号-0.1x
+      - 🇺🇸 Az-美国4号-0.1x
+      - 🇨🇳 台湾Hinet
+      - 🇺🇸 美国1-0.1x
+      - 🇺🇸 美国2-0.1x
+      - 🇺🇸 美国3-0.1x
+      - 🇺🇸 美国4-0.1x
+      - 🇩🇪 德国1-0.1x
+      - 🇯🇵 日本东京
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -42,6 +82,26 @@ proxy-groups:
       - 韩国
       - 美国
       - 香港
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国4号-0.1x
+      - 🇩🇪 德国1号
+      - 🇭🇰 香港亚马逊
+      - 🇯🇵 日本亚马逊
+      - 🇸🇬 新加坡亚马逊
+      - 🇯🇵 Az-日本东京
+      - 🇺🇸 Az-美国1号-0.1x
+      - 🇺🇸 Az-美国2号-0.1x
+      - 🇺🇸 Az-美国3号-0.1x
+      - 🇺🇸 Az-美国4号-0.1x
+      - 🇨🇳 台湾Hinet
+      - 🇺🇸 美国1-0.1x
+      - 🇺🇸 美国2-0.1x
+      - 🇺🇸 美国3-0.1x
+      - 🇺🇸 美国4-0.1x
+      - 🇩🇪 德国1-0.1x
+      - 🇯🇵 日本东京
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,6 +111,26 @@ proxy-groups:
       - 韩国
       - 美国
       - 香港
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国4号-0.1x
+      - 🇩🇪 德国1号
+      - 🇭🇰 香港亚马逊
+      - 🇯🇵 日本亚马逊
+      - 🇸🇬 新加坡亚马逊
+      - 🇯🇵 Az-日本东京
+      - 🇺🇸 Az-美国1号-0.1x
+      - 🇺🇸 Az-美国2号-0.1x
+      - 🇺🇸 Az-美国3号-0.1x
+      - 🇺🇸 Az-美国4号-0.1x
+      - 🇨🇳 台湾Hinet
+      - 🇺🇸 美国1-0.1x
+      - 🇺🇸 美国2-0.1x
+      - 🇺🇸 美国3-0.1x
+      - 🇺🇸 美国4-0.1x
+      - 🇩🇪 德国1-0.1x
+      - 🇯🇵 日本东京
   - name: 📲 电报信息
     type: select
     proxies:
@@ -59,6 +139,26 @@ proxy-groups:
       - 韩国
       - 美国
       - 香港
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国4号-0.1x
+      - 🇩🇪 德国1号
+      - 🇭🇰 香港亚马逊
+      - 🇯🇵 日本亚马逊
+      - 🇸🇬 新加坡亚马逊
+      - 🇯🇵 Az-日本东京
+      - 🇺🇸 Az-美国1号-0.1x
+      - 🇺🇸 Az-美国2号-0.1x
+      - 🇺🇸 Az-美国3号-0.1x
+      - 🇺🇸 Az-美国4号-0.1x
+      - 🇨🇳 台湾Hinet
+      - 🇺🇸 美国1-0.1x
+      - 🇺🇸 美国2-0.1x
+      - 🇺🇸 美国3-0.1x
+      - 🇺🇸 美国4-0.1x
+      - 🇩🇪 德国1-0.1x
+      - 🇯🇵 日本东京
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -67,6 +167,26 @@ proxy-groups:
       - 韩国
       - 美国
       - 香港
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国4号-0.1x
+      - 🇩🇪 德国1号
+      - 🇭🇰 香港亚马逊
+      - 🇯🇵 日本亚马逊
+      - 🇸🇬 新加坡亚马逊
+      - 🇯🇵 Az-日本东京
+      - 🇺🇸 Az-美国1号-0.1x
+      - 🇺🇸 Az-美国2号-0.1x
+      - 🇺🇸 Az-美国3号-0.1x
+      - 🇺🇸 Az-美国4号-0.1x
+      - 🇨🇳 台湾Hinet
+      - 🇺🇸 美国1-0.1x
+      - 🇺🇸 美国2-0.1x
+      - 🇺🇸 美国3-0.1x
+      - 🇺🇸 美国4-0.1x
+      - 🇩🇪 德国1-0.1x
+      - 🇯🇵 日本东京
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -75,6 +195,26 @@ proxy-groups:
       - 韩国
       - 美国
       - 香港
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国4号-0.1x
+      - 🇩🇪 德国1号
+      - 🇭🇰 香港亚马逊
+      - 🇯🇵 日本亚马逊
+      - 🇸🇬 新加坡亚马逊
+      - 🇯🇵 Az-日本东京
+      - 🇺🇸 Az-美国1号-0.1x
+      - 🇺🇸 Az-美国2号-0.1x
+      - 🇺🇸 Az-美国3号-0.1x
+      - 🇺🇸 Az-美国4号-0.1x
+      - 🇨🇳 台湾Hinet
+      - 🇺🇸 美国1-0.1x
+      - 🇺🇸 美国2-0.1x
+      - 🇺🇸 美国3-0.1x
+      - 🇺🇸 美国4-0.1x
+      - 🇩🇪 德国1-0.1x
+      - 🇯🇵 日本东京
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,6 +240,26 @@ proxy-groups:
       - 韩国
       - 美国
       - 香港
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国4号-0.1x
+      - 🇩🇪 德国1号
+      - 🇭🇰 香港亚马逊
+      - 🇯🇵 日本亚马逊
+      - 🇸🇬 新加坡亚马逊
+      - 🇯🇵 Az-日本东京
+      - 🇺🇸 Az-美国1号-0.1x
+      - 🇺🇸 Az-美国2号-0.1x
+      - 🇺🇸 Az-美国3号-0.1x
+      - 🇺🇸 Az-美国4号-0.1x
+      - 🇨🇳 台湾Hinet
+      - 🇺🇸 美国1-0.1x
+      - 🇺🇸 美国2-0.1x
+      - 🇺🇸 美国3-0.1x
+      - 🇺🇸 美国4-0.1x
+      - 🇩🇪 德国1-0.1x
+      - 🇯🇵 日本东京
 
 rules:
 # 本地/局域网地址
