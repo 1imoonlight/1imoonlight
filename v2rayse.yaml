@@ -21,74 +21,60 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"日本01","type":"trojan","server":"node-gzdx2.wnbo.dev","port":39470,"udp":true,"password":"8f239e4a-8e2c-4dde-a3e3-8597ed056373","sni":"hktr.meowport.icu","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港01","type":"trojan","server":"node-shdx.wnbo.dev","port":39470,"udp":true,"password":"8f239e4a-8e2c-4dde-a3e3-8597ed056373","sni":"hktr.meowport.icu","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港02","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"0a2ae18b","sni":"hk.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国01","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国01","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"e5e32bb3","sni":"kr.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"0a2ae18b","sni":"hk.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"e5e32bb3","sni":"kr.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 日本01
-      - 香港01
-      - 香港02
-      - 美国01
-      - 韩国01
+      - 香港
+      - 美国
+      - 韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本01
-      - 香港01
-      - 香港02
-      - 美国01
-      - 韩国01
+      - 香港
+      - 美国
+      - 韩国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本01
-      - 香港01
-      - 香港02
-      - 美国01
-      - 韩国01
+      - 香港
+      - 美国
+      - 韩国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本01
-      - 香港01
-      - 香港02
-      - 美国01
-      - 韩国01
+      - 香港
+      - 美国
+      - 韩国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 日本01
-      - 香港01
-      - 香港02
-      - 美国01
-      - 韩国01
+      - 香港
+      - 美国
+      - 韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本01
-      - 香港01
-      - 香港02
-      - 美国01
-      - 韩国01
+      - 香港
+      - 美国
+      - 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
