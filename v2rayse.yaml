@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"香港","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"0a2ae18b","sni":"hk.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港","type":"trojan","server":"hk.daydayup.ltd","port":443,"udp":true,"password":"10568f68","sni":"hk.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
   - {"name":"韩国","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"e5e32bb3","sni":"kr.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
