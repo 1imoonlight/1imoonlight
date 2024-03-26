@@ -21,7 +21,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"美国","type":"trojan","server":"us.daydayup.ltd","port":443,"udp":true,"password":"b6786a4c","sni":"us.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
   - {"name":"韩国","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"88bef27f","sni":"kr.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -29,7 +28,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国
       - 韩国
   - name: ♻️ 自动选择
     type: url-test
@@ -37,7 +35,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 美国
       - 韩国
   - name: 🌍 国外媒体
     type: select
@@ -45,28 +42,24 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国
       - 韩国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国
       - 韩国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国
       - 韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国
       - 韩国
   - name: 🎯 全球直连
     type: select
@@ -90,7 +83,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国
       - 韩国
 
 rules:
