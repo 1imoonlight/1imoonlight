@@ -21,46 +21,46 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"新加坡","type":"trojan","server":"sg.daydayup.ltd","port":443,"udp":true,"password":"lpc123qweasd","sni":"sg.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"qwe123asdzxc","sni":"sg.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 新加坡
+      - 首尔
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡
+      - 首尔
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡
+      - 首尔
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡
+      - 首尔
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 新加坡
+      - 首尔
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡
+      - 首尔
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -83,7 +83,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡
+      - 首尔
 
 rules:
 # 本地/局域网地址
