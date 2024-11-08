@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"新加坡","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"qwe123asdzxc","sni":"sg.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"首尔","type":"trojan","server":"kr.daydayup.ltd","port":443,"udp":true,"password":"qwe123asdzxc","sni":"sg.daydayup.ltd","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
