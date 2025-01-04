@@ -1,4 +1,4 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=1imoonlight)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=1imoonlight&show_icons=true&theme=radical)
 
 <!-- 贪吃蛇 - 图片由 actions/Generate Snake 定时生成 -->
 <picture>
