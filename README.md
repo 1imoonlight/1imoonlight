@@ -1,3 +1,11 @@
+<!-- 标题 + 个人描述, emoji 取自: http://emojihomepage.com -->
+<p align="center">
+  <h1 height="200px" align="center">
+    God dag <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25">, I'm Momoko
+  </h1>
+   <p align="center">A Sometimes passion ✨ and sometimes idle 🥋 backend developer from China 👨‍💻</p>
+</p>
+
 <!-- 贪吃蛇 - 图片由 actions/Generate Snake 定时生成 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
@@ -9,10 +17,6 @@
 <table align="center">
   <tr>
     <td align="center">
-      <div><b><em><spam>Statistics</spam></em></b></div>
-      <img align="left" src="./assets/metrics.plugin.isocalendar.svg" />
-    </td>
-    <td align="left">
       <img src="https://github-readme-stats.vercel.app/api?username=1imoonlight&hide_border=true&show_icons=true&theme=dark&bg_color=00000000"/>
     </td>
   </tr>
