@@ -1,3 +1,4 @@
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=1imoonlight)
 <!-- dynamic typing effect 动态打字效果 -->
 <div align="center">
    <a href="https://daydayup.ltd/">
