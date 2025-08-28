@@ -6,8 +6,8 @@
 
 !(async () => {
   // 从环境变量读取配置
-  const authorization = $loon.get("GLaDOS_AUTHORIZATION") || "";
-  const cookie = $loon.get("GLaDOS_COOKIE") || "";
+  const authorization = $loon.get("GLaDOS_AUTHORIZATION") || "30341116719929408944031713315076-1080-1920";
+  const cookie = $loon.get("GLaDOS_COOKIE") || "koa:sess=eyJ1c2VySWQiOjU4NTE1NSwiX2V4cGlyZSI6MTc4MjAzMTEwNTU3MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=H4FvivKk1MVD5h47CpI2jp_6fgo; __stripe_mid=9e72becb-60f5-4801-a8cb-e5054002bbf0fac4ce";
 
   // 检查环境变量是否已设置
   if (!authorization || !cookie) {
