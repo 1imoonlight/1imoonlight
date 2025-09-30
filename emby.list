@@ -6,4 +6,5 @@ DOMAIN,cdn.liminalnet.pro
 DOMAIN,yinhai.aiinyue.com
 DOMAIN,ftp.efreightech.com
 DOMAIN-SUFFIX,rds.aliyuncs.com
+DOMAIN-SUFFIX,jetbrains.com
 IP-CIDR,47.236.153.130/32
