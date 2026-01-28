@@ -6,18 +6,17 @@
 
 ;(async () => {
   // 1. 请求配置
-  const url = "https://glados.rocks/api/user/checkin";
+  const url = "https://glados.cloud/api/user/checkin";
   const method = "POST";
   const headers = {
-    "Authorization": "30341116719929408944031713315076-1080-1920",
-    "Cookie": "koa:sess=eyJ1c2VySWQiOjU4NTE1NSwiX2V4cGlyZSI6MTc4MjAzMTEwNTU3MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=H4FvivKk1MVD5h47CpI2jp_6fgo; __stripe_mid=9e72becb-60f5-4801-a8cb-e5054002bbf0fac4ce",
+    "Cookie": "koa:sess=eyJ1c2VySWQiOjU4NTE1NSwiX2V4cGlyZSI6MTc5NTQ4NTk1MzExNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=c5T86TPGjdKx2HWbMjLy8th6oco",
     "Content-Type": "application/json",
     "Accept": "*/*",
-    "Host": "glados.rocks",
+    "Host": "glados.cloud",
     "Connection": "keep-alive",
   };
   const body = {
-    "token": "glados.one"
+    "token": "glados.cloud"
   };
 
   // 2. 发起 POST 请求签到
